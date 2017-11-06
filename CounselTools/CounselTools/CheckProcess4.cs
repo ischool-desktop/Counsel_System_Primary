@@ -56,9 +56,13 @@ namespace CounselTools
                     string ssItem = "";
                     switch (g)
                     {
+                        // 2017/11/06 ，羿均，新增四五六年級。
                         case 1: ssItem = "一"; break;
                         case 2: ssItem = "二"; break;
-                        case 3: ssItem = "三"; break;                        
+                        case 3: ssItem = "三"; break;
+                        case 4: ssItem = "四"; break;
+                        case 5: ssItem = "五"; break;
+                        case 6: ssItem = "六"; break;
                     }
                     strItem = "自我的心聲_" + ssItem + str;
                     chkItems1.Add(strItem);

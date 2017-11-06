@@ -51,10 +51,10 @@ namespace CounselTools
             chkItems1.Add("直系血親_職業");
             chkItems1.Add("直系血親_職稱");
             // 這算一項
-            if (CheckDataTransfer.CheckRELATIVE_Error(_GroupName, chkItems1, _Student)>0)
+            if (CheckDataTransfer.CheckRELATIVE_Error(_GroupName, chkItems1, _Student) > 0)
                 _ErrorCount += 1; ;
             
-            _TotalCount += 1;
+              _TotalCount += 1;
             #endregion
             
             #region SIBLING
@@ -84,7 +84,7 @@ namespace CounselTools
             chkItems3.Add("監護人_關係");
             
             // 這算一項
-            if (CheckDataTransfer.CheckSINGLE_ANSWER_Error(_GroupName, chkItems3, _Student)>0)
+            if (CheckDataTransfer.CheckSINGLE_ANSWER_Error(_GroupName, chkItems3, _Student) > 0)
                 _ErrorCount += 1;
 
             _TotalCount += 1;

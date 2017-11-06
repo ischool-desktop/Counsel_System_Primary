@@ -2151,6 +2151,7 @@ namespace Counsel_System
         /// <returns></returns>
         public static string Counsel_SemesterData_Parse1(UDTSemesterDataDef data, int idx)
         {
+            // 2017/11/03，羿均，修改錯誤。
             string retVal = "";
             if (data != null)
             {
@@ -2172,20 +2173,20 @@ namespace Counsel_System
                 if (idx == 6 && !string.IsNullOrWhiteSpace(data.S3b))
                     retVal = data.S3b;
 
-                if (idx == 7 && !string.IsNullOrWhiteSpace(data.S4b))
-                    retVal = data.S4b;
+                if (idx == 7 && !string.IsNullOrWhiteSpace(data.S4a))
+                    retVal = data.S4a;
 
                 if (idx == 8 && !string.IsNullOrWhiteSpace(data.S4b))
                     retVal = data.S4b;
 
-                if (idx == 9 && !string.IsNullOrWhiteSpace(data.S5b))
-                    retVal = data.S5b;
+                if (idx == 9 && !string.IsNullOrWhiteSpace(data.S5a))
+                    retVal = data.S5a;
 
                 if (idx == 10 && !string.IsNullOrWhiteSpace(data.S5b))
                     retVal = data.S5b;
 
-                if (idx == 11 && !string.IsNullOrWhiteSpace(data.S6b))
-                    retVal = data.S6b;
+                if (idx == 11 && !string.IsNullOrWhiteSpace(data.S6a))
+                    retVal = data.S6a;
 
                 if (idx == 12 && !string.IsNullOrWhiteSpace(data.S6b))
                     retVal = data.S6b;
