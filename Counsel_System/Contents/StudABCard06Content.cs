@@ -27,6 +27,7 @@ namespace Counsel_System.Contents
         string _txt01Name = "生活感想_內容1";
         string _txt02Name = "生活感想_內容2";
         string _txt03Name = "生活感想_內容3";
+
         string _dtDateName = "生活感想_填寫日期";
         Dictionary<string, string> _labelDict;
 
@@ -50,9 +51,19 @@ namespace Counsel_System.Contents
             _labelDict.Add("21", "一年來的感想");
             _labelDict.Add("22", "今後努力的目標");
             _labelDict.Add("23", "期望師長給幫助");
-            _labelDict.Add("31", "項目1");
-            _labelDict.Add("32", "項目2");
-            _labelDict.Add("33", "項目3");
+            _labelDict.Add("31", "一年來的感想");
+            _labelDict.Add("32", "今後努力的目標");
+            _labelDict.Add("33", "期望師長給幫助");
+            // 2017/11/09，羿均，新增四五六年級
+            _labelDict.Add("41", "一年來的感想");
+            _labelDict.Add("42", "今後努力的目標");
+            _labelDict.Add("43", "期望師長給幫助");
+            _labelDict.Add("51", "一年來的感想");
+            _labelDict.Add("52", "今後努力的目標");
+            _labelDict.Add("53", "期望師長給幫助");
+            _labelDict.Add("61", "項目1");
+            _labelDict.Add("62", "項目2");
+            _labelDict.Add("63", "項目3");
 
             // 填入班級年級
             cbxGradeYear.Items.AddRange(Utility.GetClassGradeYear().ToArray());

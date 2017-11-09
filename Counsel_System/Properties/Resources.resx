@@ -154,9 +154,6 @@
   <data name="ImportStudQuizDataVa_CSeatNo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\importexport\importstudquizdatava_cseatno.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="Questions" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\xml\questions.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
-  </data>
   <data name="設定" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\設定.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -177,5 +174,8 @@
   </data>
   <data name="學生晤談記錄表_新範本" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\學生晤談記錄表_新範本.docx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Questions" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\xml\questions.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
 </root>

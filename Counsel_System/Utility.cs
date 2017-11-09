@@ -2395,16 +2395,41 @@ namespace Counsel_System
                 if (data.Group == "自傳" && data.Name == "家中最了解我的人是") data.Name = "家中最了解我的人";
                 if (data.Group == "自傳" && data.Name == "常指導我做功課的人是") data.Name = "常指導我做功課的人";
                 if (data.Group == "自傳" && data.Name == "最足以描述自己的幾句話是") data.Name = "最足以描述自己的幾句話";
+                // 2017/11/08，羿均，修改--感想
                 if (data.Group == "生活感想" && data.Name == "◎一年來的感想(二年級)") data.Name = "內容1_2";
+                if (data.Group == "生活感想" && data.Name == "◎一年來的感想(三年級)") data.Name = "內容1_3";
+                if (data.Group == "生活感想" && data.Name == "◎一年來的感想(四年級)") data.Name = "內容1_4";
+                if (data.Group == "生活感想" && data.Name == "◎一年來的感想(五年級)") data.Name = "內容1_5";
+               
+                // 2017/11/08，羿均，修改--目標
                 if (data.Group == "生活感想" && data.Name == "◎今後努力的目標(二年級)") data.Name = "內容2_2";
+                if (data.Group == "生活感想" && data.Name == "◎今後努力的目標(三年級)") data.Name = "內容2_3";
+                if (data.Group == "生活感想" && data.Name == "◎今後努力的目標(四年級)") data.Name = "內容2_4";
+                if (data.Group == "生活感想" && data.Name == "◎今後努力的目標(五年級)") data.Name = "內容2_5";
+
                 if (data.Group == "生活感想" && data.Name == "◎我對自己的期望(一年級)") data.Name = "內容1_1";
                 if (data.Group == "生活感想" && data.Name == "◎為達到理想，我所需要的努力(一年級)") data.Name = "內容2_1";
+                // 2017/11/08，羿均，修改--幫助
                 if (data.Group == "生活感想" && data.Name == "◎期望師長給予我的幫助(一年級)") data.Name = "內容3_1";
-                if (data.Group == "生活感想" && data.Name == "◎期望師長給予我的幫助(二年級)") data.Name = "內容3_3";
-                if (data.Group == "生活感想" && data.Name == "內容3_3") data.Name = "內容3_2";
+                if (data.Group == "生活感想" && data.Name == "◎期望師長給予我的幫助(二年級)") data.Name = "內容3_2";
+                if (data.Group == "生活感想" && data.Name == "◎期望師長給予我的幫助(三年級)") data.Name = "內容3_3";
+                if (data.Group == "生活感想" && data.Name == "◎期望師長給予我的幫助(四年級)") data.Name = "內容3_4";
+                if (data.Group == "生活感想" && data.Name == "◎期望師長給予我的幫助(五年級)") data.Name = "內容3_5";
+
+
+                //if (data.Group == "生活感想" && data.Name == "內容3_3") data.Name = "內容3_2";
+                // 2017/11/08，羿均，修改--填寫日期
                 if (data.Group == "生活感想" && data.Name == "填寫日期(一年級)") data.Name = "填寫日期_1";
                 if (data.Group == "生活感想" && data.Name == "填寫日期(二年級)") data.Name = "填寫日期_2";
-                if (data.Group == "生活感想" && data.DisplayOrder.Value==4 && data.Name == "填寫日期_1") data.Name = "填寫日期_2";
+                if (data.Group == "生活感想" && data.Name == "填寫日期(三年級)") data.Name = "填寫日期_3";
+                if (data.Group == "生活感想" && data.Name == "填寫日期(四年級)") data.Name = "填寫日期_4";
+                if (data.Group == "生活感想" && data.Name == "填寫日期(五年級)") data.Name = "填寫日期_5";
+
+                //if (data.Group == "生活感想" && data.DisplayOrder.Value == 4 && data.Name == "填寫日期_1") data.Name = "填寫日期_2";
+                //if (data.Group == "生活感想" && data.DisplayOrder.Value == 4 && data.Name == "填寫日期_2") data.Name = "填寫日期_3";
+                //if (data.Group == "生活感想" && data.DisplayOrder.Value == 4 && data.Name == "填寫日期_3") data.Name = "填寫日期_4";
+                //if (data.Group == "生活感想" && data.DisplayOrder.Value == 4 && data.Name == "填寫日期_4") data.Name = "填寫日期_5";
+                //if (data.Group == "生活感想" && data.DisplayOrder.Value == 4 && data.Name == "填寫日期_5") data.Name = "填寫日期_6";
                 if (data.Group == "自我認識" && data.Name == "我的個性(如溫和、急躁、、)") data.Name = "個性_1";
                 if (data.Group == "自我認識" && data.Name == "我的優點") data.Name = "優點_1";
                 if (data.Group == "自我認識" && data.Name == "我需要改進的地方") data.Name = "需要改進的地方_1";
@@ -2577,12 +2602,26 @@ namespace Counsel_System
             s1.Add("填寫日期");
             s2.Add("個性_2");
             s2.Add("個性_3");
+            // 2017/11/08 羿均，修改
+            s2.Add("個性_4");
+            s2.Add("個性_5");
+            s2.Add("個性_6");
+
             s2.Add("填寫日期_2");
             s2.Add("填寫日期_3");
+            s2.Add("填寫日期_4");
+            s2.Add("填寫日期_5");
+            s2.Add("填寫日期_6");
             s2.Add("需要改進的地方_2");
             s2.Add("需要改進的地方_3");
+            s2.Add("需要改進的地方_4");
+            s2.Add("需要改進的地方_5");
+            s2.Add("需要改進的地方_6");
             s2.Add("優點_2");
             s2.Add("優點_3");
+            s2.Add("優點_4");
+            s2.Add("優點_5");
+            s2.Add("優點_6");
 
             s3.Add("監護人_姓名");
             s3.Add("監護人_性別");

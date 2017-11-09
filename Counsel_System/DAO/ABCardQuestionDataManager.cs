@@ -65,6 +65,7 @@ namespace Counsel_System.DAO
         {
             Dictionary<string, QuestionData> retVal = new Dictionary<string, QuestionData>();
             List<UDTQuestionsDataDef> dataList = UDTTransfer.ABUDTQuestionsDataSelectByGroupName(Name);
+            
             dataList=(from da in dataList orderby da.Group,da.Name select da).ToList();
 
             foreach (UDTQuestionsDataDef ud in dataList)

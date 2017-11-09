@@ -1066,7 +1066,7 @@ namespace Counsel_System.Forms
                             case "自傳_自我的心聲_五年級_我目前最需要的協助是": row["自我的心聲_五年級_我目前最需要的協助是"] = data.Data; break;
                             case "自傳_自我的心聲_六年級_我目前遇到最大的困難是": row["自我的心聲_六年級_我目前遇到最大的困難是"] = data.Data; break;
                             case "自傳_自我的心聲_六年級_我目前最需要的協助是": row["自我的心聲_六年級_我目前最需要的協助是"] = data.Data; break;
-
+                            
                             case "自我認識_需要改進的地方_1": row["自我認識_需要改進的地方_1"] = data.Data; break;
                             case "自我認識_優點_1": row["自我認識_優點_1"] = data.Data; break;
                             case "自我認識_個性_1": row["自我認識_個性_1"] = data.Data; break;
